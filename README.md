@@ -3,11 +3,11 @@
 
 # Usage
 ```php
-$json = KisaWhoisApi::lookup('202.30.50.51'); // IP (default)
+$json = KisaWhois::lookup('202.30.50.51'); // IP (default)
 
-$json = KisaWhoisApi::lookup('sir.kr', 'domain');
+$json = KisaWhois::lookup('sir.kr', 'domain');
 
-$json = KisaWhoisApi::lookup('AS9455', 'asn');
+$json = KisaWhois::lookup('AS9455', 'asn');
 
-$json = KisaWhoisApi::lookup('211.220.157.121', 'country');
+$json = KisaWhois::lookup('211.220.157.121', 'country');
 ```
