@@ -3,11 +3,11 @@
 
 # Usage
 ```php
-$json = KisaWhois::lookup('202.30.50.51'); // IP (default)
+$whois = new HompyDev\OpenApi\KisaWhois();
 
-$json = KisaWhois::lookup('sir.kr', 'domain');
+$json = $whois->lookup('202.30.50.51'); // IP (default)
 
-$json = KisaWhois::lookup('AS9455', 'asn');
-
-$json = KisaWhois::lookup('211.220.157.121', 'country');
+// $json = $whois->lookup('sir.kr', 'domain');
+// $json = $whois->lookup('AS9455', 'asn');
+// $json = $whois->lookup('211.220.157.121', 'country');
 ```
