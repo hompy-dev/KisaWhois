@@ -15,7 +15,7 @@ namespace HompyDev\OpenApi;
 class KisaWhois
 {
     // 인증키
-    private const SERVICE_KEY = ''; // 유효한 인증키로 변경
+    private const SERVICE_KEY = 'YOUR_API_KEY'; // 유효한 인증키로 변경
 
     // 서비스 URL
     private const SERVICE_URL = 'https://apis.data.go.kr/B551505/whois';
